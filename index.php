@@ -8,12 +8,90 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Aula 02</title>
 </head>
-<body>
-    <?php
 
-       echo "<h1>Olá!</h1>";
-       echo "<p>Tudo bem?</p>";
+<body>
+    <label for="nome">Nota 1</label><br>
+    <input type="text" id="numero" name="numero" placeholder="Digite o Primeiro Valor">
+    <br>
+    
+    <label for="nome">Nota 2</label><br>
+    <input type="text" id="numero2" placeholder="Digite o Segundo Valor">
+    <br>
+    <input type="submit" name="Enviar"><br>
+
+    <?php
+        #Comentario
+        //Cometario
+        /*Comentario*/
+
+        //Imprimir na tela com tags html
+       echo "<h1>Minha mensagem!</h1><br>";
+
+       //Variavel
+        $nome = "Carlos";
+        $idade = 24;
+        $pobre = true;
+
+        $prova1 = 10;
+        $prova2 = 10;
+        
+       echo "<p>Oi $nome, sua idade é $idade você é <b>$pobre</b>.</p>";
+
+       //Constante 
+       const nomeCompleto = "Carlos Emanuel de Oliveira Candido!";
+
+       echo nomeCompleto;
+
+       $nota1 = 5;
+       $nota2 = 7.5;
+       $resultado = ($nota1+$nota2)/2;
+
+
+       if($resultado>=6){
+           echo "<p>Aprovado</p>";
+       } else {
+       echo "<p>Reprovado</p>";
+       }
+
+
+       //Repetição While
+       $cont = 0;
+       do{
+           //faça
+           $cont++;
+           echo $cont."<br>";
+
+       }while($cont<5);
+
+       "<br><br>";
+
+       $cont = 0;
+       while($cont<5){
+            echo $cont++. "<br>";
+       }
+        
+       //Contatenar variavel e string "."
+        echo "<p>".nomeCompleto."</p>";
+
+        //Repetição for
+
+        for($i=0;$i<10;$i++){
+            echo "<b>For i:".$i."</b><br>";
+        }
+
+        for($i=1;$i<=5197;$i++){
+            if($i%2==0){
+                echo "<p>".$i."</p>&nbsp";
+            }
+        }
+
 
     ?>
 </body>
+
+<script type="text/javascript">
+buttonGetElemteById("button")</script>
+<footer>
+
+</footer>
 </html>
