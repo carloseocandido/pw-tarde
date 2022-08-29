@@ -10,15 +10,9 @@
 </head>
 
 <body>
-    <label for="nome">Nota 1</label><br>
-    <input type="text" id="numero" name="numero" placeholder="Digite o Primeiro Valor">
-    <br>
-    
-    <label for="nome">Nota 2</label><br>
-    <input type="text" id="numero2" placeholder="Digite o Segundo Valor">
-    <br>
-    <input type="submit" name="Enviar"><br>
 
+    <a href="array.php">Array</a><br>
+    <a href="funcao.php">Função</a><br>
     <?php
         #Comentario
         //Cometario

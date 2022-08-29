@@ -90,4 +90,11 @@
     echo "Negativos: $negativo Positivos: $positivo<pre>";
     print_r($num);
     echo "</pre>";
+
+
+
 ?>
+
+<body>
+    <a href="index.php"><p>VOLTAR<p></a>
+</body>
