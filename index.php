@@ -10,9 +10,14 @@
 </head>
 
 <body>
-
-    <a href="array.php">Array</a><br>
-    <a href="funcao.php">Função</a><br>
+    <form action="array.php">
+        <label for="array"><h3>Array</h3></label>
+        <input type="submit" id="array" name="array">
+    </form>
+    <form action="funcao.php">
+        <label for="funcao"><h3>Função</h3></label>
+        <input type="submit" id="funcao" name="funcao">
+    </form>
     <?php
         #Comentario
         //Cometario
@@ -81,6 +86,8 @@
 
 
     ?>
+
+    
 </body>
 
 <script type="text/javascript">
