@@ -12,11 +12,11 @@
 <body>
     <form action="array.php">
         <label for="array"><h3>Array</h3></label>
-        <input type="submit" id="array" name="array">
+        <input type="submit" id="array" name="array" value="Abrir array">
     </form>
     <form action="funcao.php">
         <label for="funcao"><h3>Função</h3></label>
-        <input type="submit" id="funcao" name="funcao">
+        <input type="submit" id="funcao" name="funcao" value="Abrir função">
     </form>
     <?php
         #Comentario
@@ -77,13 +77,13 @@
         for($i=0;$i<10;$i++){
             echo "<b>For i:".$i."</b><br>";
         }
-
+        /*
         for($i=1;$i<=5197;$i++){
             if($i%2==0){
                 echo "<p>".$i."</p>&nbsp";
             }
         }
-
+        */
 
     ?>
 

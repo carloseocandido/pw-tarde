@@ -92,5 +92,5 @@
 ?>
 
 <body>
-    <a href="index.php"><p><b>VOLTAR</b><p></a>
+    <a href="index.php"><strong>VOLTAR</strong></a>
 </body>
