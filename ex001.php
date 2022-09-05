@@ -74,6 +74,7 @@
     }
     echo porc(50, 50);
 
+    //8
     $pares = 0;
     $inpares = 0;
     $negativos = 0;
@@ -92,6 +93,7 @@
         }
     }
 
+    //9
     echo '<br>'.$pares.'pares<br>';
     echo $inpares.'inpares<br>';
     echo $negativos.'negativos<br>';
