@@ -105,3 +105,7 @@
     $res = $aux/8;
     echo 'Resultado da média é: '.$res;
 ?>
+<body>
+    <br>
+    <a href="index.php"><strong>VOLTAR</strong></a>
+</body>

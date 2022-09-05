@@ -18,6 +18,10 @@
         <label for="funcao"><h3>Função</h3></label>
         <input type="submit" id="funcao" name="funcao" value="Abrir função">
     </form>
+    <form action="ex001.php">
+        <label for="ex001"><h3>ex001</h3></label>
+        <input type="submit" id="ex001" name="ex001" value="Abrir ex001">
+    </form>
     <?php
         #Comentario
         //Cometario
