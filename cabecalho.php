@@ -20,7 +20,7 @@
                     <li><a href="clientes.php">Clientes</a></li>
                     <li><a href="sobre.php">Sobre</a></li>
                     <li><a href="contatos.php">Contatos</a></li>
-                    <li><a href="portifolio.php">Portifolio</a></li>
+                    <li><a href="portfolio.php">Portfolio</a></li>
                     <li><a href="cadastro.php">Cadastro de Pessoas</a></li>
                 </ul>
             </nav>
