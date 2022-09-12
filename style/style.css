@@ -1,0 +1,53 @@
+
+        body, li{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-family: verdana;
+        }
+        #container{
+            display: grid;
+            grid-template-rows: 8vh 92vh;
+            grid-template-areas: 
+                'cabecalho'
+                'conteudo';
+        }
+        img{
+            width: 100%;
+            height: 85%;
+            margin: 12%;
+        }
+        a {
+            text-decoration: none;
+        }
+        #cabecalho{
+            grid-area: cabecalho;
+            background-color: #1d1d1d;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+        }
+        #conteudo{
+            background-color: #D3D3D3;
+        }
+        .menu{
+            display: flex;
+        }
+        .menu.li, a{
+            display: block;
+            padding: 8px;
+            cursor: pointer;
+            color: white;
+        }
+        ul{
+            margin-top: 1%;
+            margin-left: 5px;
+            font-weight: bold;
+            color: white;
+            border: 1px solid;
+            border-radius: 7px;
+            padding: 0.5%;
+            margin-right: 2%;
+            padding: 1.5px;
+        }

@@ -96,5 +96,5 @@
 ?>
 
 <body>
-    <a href="index.php"><strong>VOLTAR</strong></a>
+    <a href="exercicios.php"><strong>VOLTAR</strong></a>
 </body>
