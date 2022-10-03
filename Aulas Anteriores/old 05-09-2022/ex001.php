@@ -93,12 +93,12 @@
         }
     }
 
-    //9
     echo '<br>'.$pares.'pares<br>';
     echo $inpares.'inpares<br>';
     echo $negativos.'negativos<br>';
     echo $positivos.'positivos<br>';
 
+    //9
     $aux = 0;
     $res = 0;
     for($i=0; $i < count($numeros); $i++){
