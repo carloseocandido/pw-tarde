@@ -4,23 +4,25 @@ include "./cabecalho.php";
 
 if(isset($_POST) && !empty($_POST)){
 
-    echo "<pre>";
-    print_r($_POST);
-    echo "</pre>";
+    // echo "<pre>";
+    // print_r($_POST);
+    // echo "</pre>";
 
     include "./conexao.php";
     $nome = $_POST["nome"];
     $login = $_POST["login"];
     $senha =  hash("sha512", $_POST["senha"]);
     if(isset($_POST["ativo"]) && $_POST["ativo"] == "on"){
-        $ativo = true;
+        $ativo = 1;
     } else {
-        $ativo = false;
+        $ativo = 0;
     }
 
     $query = "insert into usuarios (nome, login, senha, ativo) values ('$nome', '$login', '$senha', '$ativo')";
     $resultado = mysqli_query($conexao, $query);
     if($resultado){
+        header("Location: ./usuarios.php");
+        exit();
         ?>
             <div class="alert alert-success">
                 Cadastrado com sucesso
@@ -65,3 +67,4 @@ if(isset($_POST) && !empty($_POST)){
     </div>
 </div>
 
+<?php include "./rodape.php"; ?>
